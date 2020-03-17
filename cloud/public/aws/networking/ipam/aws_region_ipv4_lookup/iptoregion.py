@@ -8,7 +8,7 @@ Created on: 06/03/2020
 
 Requirements:
 
-Python 3.8
+Python 3.5 or higher
 ipaddress==1.0.23
 requests==2.23.0
 
