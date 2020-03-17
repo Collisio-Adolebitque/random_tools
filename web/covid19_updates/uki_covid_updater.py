@@ -218,9 +218,9 @@ def main(event) -> None:
     NB: Google Cloud Function passes a parameter (event) to the primary function.
     :return: None
     """
-    project_id = 'covid19-20200312'
-    dataset_name = 'covid_collector'
-    table_id = 'uki_covid19_confirmed_cases'
+    project_id = '<SET_PROJECT_ID>'
+    dataset_name = '<SET_DATASET_NAME>'
+    table_id = '<SET_TABLE_ID>'
     big_query = BigQuery(project_id, dataset_name, table_id)
 
     if not big_query.does_dataset_exist(f'{project_id}.{dataset_name}'):
