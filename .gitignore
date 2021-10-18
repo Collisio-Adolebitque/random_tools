@@ -135,3 +135,5 @@ files_to_be_converted/*
 
 web/covid19_updates/covid_collector.json
 web/covid19_updates/test.py
+
+*.DS_Store
